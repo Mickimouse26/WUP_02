@@ -72,3 +72,5 @@ p-value = .000000003405 this is such a small number, and the null hypotheses say
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We can conclude that cultivation method that c52 results is greater vitamin C content than c39

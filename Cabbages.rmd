@@ -48,9 +48,21 @@ basicCN + geom_boxplot()
   
 ### Numerical Descriptive Results
 
+# Numerical results
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The average of c52 is 64.4 and, the average of c39 is 51.5 per the table above.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
+
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
